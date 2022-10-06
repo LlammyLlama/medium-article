@@ -1,0 +1,53 @@
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+
+h2{
+  font-family:  'Roboto Serif', serif;
+  color: gray;
+  text-align: left;
+}
+
+p{
+ font-family: 'Courier New', Courier, monospace;
+ text-align: left;
+}
+
+.banner p {
+  text-align: center;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: xx-large;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 0px auto;
+  padding: 25px;
+}
+
+.container > a {
+  background-color: rgb(149, 255, 255);
+  font-family:  'Roboto Serif', serif;
+  text-decoration: none;
+  color: gray;
+  font-size: xx-large;
+}
+
+.container > a:hover {
+  background-color: rgb(22, 194, 194);
+  font-family:  'Roboto Serif', serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+}
